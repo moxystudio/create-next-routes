@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest --env node --coverage",
+    "test": "jest --coverage",
     "prerelease": "npm t && npm run lint",
     "release": "standard-version",
     "postrelease": "git push --follow-tags origin master && npm publish"
@@ -33,7 +33,10 @@
   ],
   "dependencies": {
     "arg": "^4.1.1",
+    "chalk": "^2.4.2",
+    "command-line-usage": "^6.0.2",
     "esm": "^3.2.25",
+    "fs-extra": "^8.1.0",
     "inquirer": "^7.0.0"
   },
   "devDependencies": {

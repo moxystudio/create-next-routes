@@ -5,7 +5,6 @@
     },
     "extends": [
         "eslint-config-moxy/es9",
-        "eslint-config-moxy/addons/node",
-        "eslint-config-moxy/addons/jest"
+        "eslint-config-moxy/addons/node"
     ]
 }
