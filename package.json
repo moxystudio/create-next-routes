@@ -1,6 +1,6 @@
 {
   "name": "@moxystudio/create-next-routes",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A CLI to manage Next.js routes",
   "main": "index.js",
   "scripts": {
@@ -14,13 +14,10 @@
     "@moxystudio/create-next-routes": "bin/create-next-routes",
     "create-next-routes": "bin/create-next-routes"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "keywords": [
     "cli",
     "create-next-routes",
-    "next",
+    "nextjs",
     "routes",
     "next-routes",
     "next-routes-cli"
